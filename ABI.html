@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="description" content="Decentrex - decentralized cryptocurrency exchange for Ethereum and tokens">
+      <meta name="keywords" content="Decentralized cryptocurrency exchange, Ethereum, ETH, Decentrex">
+      <meta property="og:title" content="Decentrex - Decentralized cryptocurrency exchange for ETH and tokens"/>
+      <meta property="og:description" content="Decentrex - Decentralized cryptocurrency exchange for ETH and tokens"/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:url" content= "https://decentrex.com" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link href="/images/favicon.ico" rel="icon" />
+      <link href="/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="/css/font-awesome.min.css" rel="stylesheet" />
+      <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+      <link href="/css/alertify.min.css" rel="stylesheet" />
+      <link href="/css/alertify-bootstrap.min.css" rel="stylesheet" />
+      <link href="/css/decentrexstyle.css" rel="stylesheet"/>
+      <link href="/css/small.css" rel="stylesheet" media="only screen and (max-device-width: 480px)" />
+      <title>DECENTREX Frequently Asked Questions </title>
+   </head>
+   <body>
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only" id="toggleNavigation" class="trn">toggle_navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="/">
+               <i class="fa fa-database" aria-hidden="true"></i> DECENTREX
+               </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              
+               <ul class="nav navbar-nav navbar-right">
+               <li><a href="/index.html">Go to decentrex main page</a></li> 
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container-fluid -->
+      </nav>
+      <div class="container-fluid">
+         <div class="row">
+            <h1>SMART CONTRACT ABI INSTRUCTIONS</h1>
+
+
+            
+         <!--   FOOTER START================== -->
+      </div><div class="container">
+    <br />
+<h2>ABI smart contract instructions</h2>
+<ul>
+<li>You can use myetherwallet.com to perform withdraw function using smart contract ABI</li>
+<li>Go to https://www.myetherwallet.com/#contracts</li>
+<li>Paste smart contract address:
+<pre>
+0xbF29685856FAE1e228878DFB35B280C0adCC3B05
+</pre></li>
+<li>Paste smart contract ABI (you can find it at https://etherscan.io/address/0xbf29685856fae1e228878dfb35b280c0adcc3b05#code)
+<pre>
+[{"constant":false,"inputs":[{"name":"tokenGet","type":"address"},{"name":"amountGet","type":"uint256"},{"name":"tokenGive","type":"address"},{"name":"amountGive","type":"uint256"},{"name":"expires","type":"uint256"},{"name":"nonce","type":"uint256"},{"name":"user","type":"address"},{"name":"v","type":"uint8"},{"name":"r","type":"bytes32"},{"name":"s","type":"bytes32"},{"name":"amount","type":"uint256"}],"name":"trade","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"tokenGet","type":"address"},{"name":"amountGet","type":"uint256"},{"name":"tokenGive","type":"address"},{"name":"amountGive","type":"uint256"},{"name":"expires","type":"uint256"},{"name":"nonce","type":"uint256"}],"name":"order","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"},{"name":"","type":"bytes32"}],"name":"orderFills","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"tokenGet","type":"address"},{"name":"amountGet","type":"uint256"},{"name":"tokenGive","type":"address"},{"name":"amountGive","type":"uint256"},{"name":"expires","type":"uint256"},{"name":"nonce","type":"uint256"},{"name":"v","type":"uint8"},{"name":"r","type":"bytes32"},{"name":"s","type":"bytes32"}],"name":"cancelOrder","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"amount","type":"uint256"}],"name":"withdraw","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"token","type":"address"},{"name":"amount","type":"uint256"}],"name":"depositToken","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"tokenGet","type":"address"},{"name":"amountGet","type":"uint256"},{"name":"tokenGive","type":"address"},{"name":"amountGive","type":"uint256"},{"name":"expires","type":"uint256"},{"name":"nonce","type":"uint256"},{"name":"user","type":"address"},{"name":"v","type":"uint8"},{"name":"r","type":"bytes32"},{"name":"s","type":"bytes32"}],"name":"amountFilled","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"},{"name":"","type":"address"}],"name":"tokens","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"feeMake_","type":"uint256"}],"name":"changeFeeMake","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"feeMake","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"feeRebate_","type":"uint256"}],"name":"changeFeeRebate","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"feeAccount","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"tokenGet","type":"address"},{"name":"amountGet","type":"uint256"},{"name":"tokenGive","type":"address"},{"name":"amountGive","type":"uint256"},{"name":"expires","type":"uint256"},{"name":"nonce","type":"uint256"},{"name":"user","type":"address"},{"name":"v","type":"uint8"},{"name":"r","type":"bytes32"},{"name":"s","type":"bytes32"},{"name":"amount","type":"uint256"},{"name":"sender","type":"address"}],"name":"testTrade","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"feeAccount_","type":"address"}],"name":"changeFeeAccount","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"feeRebate","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"feeTake_","type":"uint256"}],"name":"changeFeeTake","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"admin_","type":"address"}],"name":"changeAdmin","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"token","type":"address"},{"name":"amount","type":"uint256"}],"name":"withdrawToken","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"},{"name":"","type":"bytes32"}],"name":"orders","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"feeTake","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"deposit","outputs":[],"payable":true,"type":"function"},{"constant":false,"inputs":[{"name":"accountLevelsAddr_","type":"address"}],"name":"changeAccountLevelsAddr","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"accountLevelsAddr","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"token","type":"address"},{"name":"user","type":"address"}],"name":"balanceOf","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"admin","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"tokenGet","type":"address"},{"name":"amountGet","type":"uint256"},{"name":"tokenGive","type":"address"},{"name":"amountGive","type":"uint256"},{"name":"expires","type":"uint256"},{"name":"nonce","type":"uint256"},{"name":"user","type":"address"},{"name":"v","type":"uint8"},{"name":"r","type":"bytes32"},{"name":"s","type":"bytes32"}],"name":"availableVolume","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"inputs":[{"name":"admin_","type":"address"},{"name":"feeAccount_","type":"address"},{"name":"accountLevelsAddr_","type":"address"},{"name":"feeMake_","type":"uint256"},{"name":"feeTake_","type":"uint256"},{"name":"feeRebate_","type":"uint256"}],"payable":false,"type":"constructor"},{"payable":false,"type":"fallback"},{"anonymous":false,"inputs":[{"indexed":false,"name":"tokenGet","type":"address"},{"indexed":false,"name":"amountGet","type":"uint256"},{"indexed":false,"name":"tokenGive","type":"address"},{"indexed":false,"name":"amountGive","type":"uint256"},{"indexed":false,"name":"expires","type":"uint256"},{"indexed":false,"name":"nonce","type":"uint256"},{"indexed":false,"name":"user","type":"address"}],"name":"Order","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"tokenGet","type":"address"},{"indexed":false,"name":"amountGet","type":"uint256"},{"indexed":false,"name":"tokenGive","type":"address"},{"indexed":false,"name":"amountGive","type":"uint256"},{"indexed":false,"name":"expires","type":"uint256"},{"indexed":false,"name":"nonce","type":"uint256"},{"indexed":false,"name":"user","type":"address"},{"indexed":false,"name":"v","type":"uint8"},{"indexed":false,"name":"r","type":"bytes32"},{"indexed":false,"name":"s","type":"bytes32"}],"name":"Cancel","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"tokenGet","type":"address"},{"indexed":false,"name":"amountGet","type":"uint256"},{"indexed":false,"name":"tokenGive","type":"address"},{"indexed":false,"name":"amountGive","type":"uint256"},{"indexed":false,"name":"get","type":"address"},{"indexed":false,"name":"give","type":"address"}],"name":"Trade","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"token","type":"address"},{"indexed":false,"name":"user","type":"address"},{"indexed":false,"name":"amount","type":"uint256"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"token","type":"address"},{"indexed":false,"name":"user","type":"address"},{"indexed":false,"name":"amount","type":"uint256"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"Withdraw","type":"event"}]
+</pre></li>
+<li>Press the ACCESS button</li>
+<li>You can access smart contract functions like check balance, withdraw, withdrawToken.</li>
+<li>Pick "withdraw" contract function to withdraw ETH or pick "withdrawToken" to withdraw any token.</li>
+<li>Specify the amount in wei - 1 ETH = 1000000000000000000 wei, for tokens specify the token smart contract address and token amount.</li>
+<li>Select your Ethereum account private keys and click the "WRITE" button to perform smart contract function. You can adjust gas price before performing any smart contract function.</li>
+
+</ul> 
+
+    
+</div>
+            </div>
+                 </div>
+      <footer class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-4">
+                  <h4 class="title">
+                     <i class="fa fa-file-text-o" aria-hidden="true">
+</i> DISCLAIMER. NO WARRANTY. HIGH RISKS. </h4>
+<p>
+Please note that Ethereum and smart contracts is still experimental and Decentrex comes with NO WARRANTY. Please make sure you have backups of your private keys and do not use this for more than you are willing to lose. You are responsible for your own account, funds, and private keys. You are responsible for your own trading decisions, and the details and mechanics of the tokens you trade. Decentrex is not responsible for your decisions, actions, or losses that result from using Decentrex. Decentrex makes no guarantee about the tokens that you trade using Decentrex. Decentrex does not hold your funds and does not offer refunds. While the information contained on Decentrex is periodically updated, no guarantee is given that the information provided on Decentrex is correct, complete, or up-to-date. By using Decentrex, you acknowledge this and agree to these terms. 
+</p>
+               </div>
+               <div class="col-sm-2">
+                  <h4 class="title">Know more
+                  </h4>
+                  <span class="acount-icon">          
+                  <a target="_blank" href="https://www.ethereum.org/">
+                  <i class="fa fa-money" aria-hidden="true">
+                  </i> Ethereum & tokens
+                  </a>
+                  <a target="_blank" href="https://en.wikipedia.org/wiki/Smart_contract">
+                  <i class="fa fa-cart-plus" aria-hidden="true">
+                  </i> Smart contracts
+                  </a>
+                  <a target="_blank" href="https://etherscan.io/address/0xbF29685856FAE1e228878DFB35B280C0adCC3B05">
+                  <i class="fa fa-file-code-o" aria-hidden="true">
+                  </i> Decentrex smart contract
+                  </a>
+                  <a target="_blank" href="https://decentrex.com/markets.html">
+                  <i class="fa fa-bank" aria-hidden="true">
+                  </i> Decentrex markets
+                  </a>
+                  <a target="_blank" href="https://decentrex.com/sitemap.xml">
+                  <i class="fa fa-map-o" aria-hidden="true">
+                  </i> Sitemap
+                  </a>
+                  </span> 
+               </div>
+               <div class="col-sm-3">
+                  <h4 class="title">Exchange announcements
+                  </h4>
+                  <div class="category"> 
+                  <ul>
+                   <li>December 20, 2017. Default Gas price changed to 40 GWei.
+                  </li>
+                   <li>October 29, 2017. New Ethereum tokens. 450+. Updates.
+                  </li>
+                  <li>September 24, 2017. New Ethereum tokens. API updates.
+                  </li>
+                  <li>August 13, 2017. Major decentrex update #2. Please, clean browser cache. 
+                  </li>
+                  <li>June 21, 2017. New tokens: SNT, VERI and AMIS. Active Patientory PTOY trading @ Decentrex.
+                  </li>
+                  <li>Decentralized cryptocurrency exchange Birthday is May 25, 2017. P2P Blockchain Ethereum tokens trading at DECENTREX with no registration and no limits.
+                  </li>
+               </ul>
+                  </div>
+               </div>
+               <div class="col-sm-3">
+                  <h4 class="title">DECENTREX features
+                  </h4>
+                  <p>Cryptocurrency exchange as it should be.
+                  </p>
+                  <ul class="payment">
+                     <li>
+                        <i aria-hidden="true" class="fa fa-globe">
+                        </i> Decentralized.
+                     </li>
+                     <li>
+                        <i aria-hidden="true" class="fa fa-github">100% Open Source. Served from GitHub.
+                        </i>
+                     </li>
+                     <li>
+                        <i aria-hidden="true" class="fa fa-file-code-o">
+                        </i> Based on ETH smart contract.
+                     </li>
+                     <li>
+                        <i aria-hidden="true" class="fa fa-money">
+                        </i> No limits, no barriers.
+                     </li>
+                     <li>
+                        <i aria-hidden="true" class="fa fa-bullhorn">
+                        </i> No registration, no censorship.
+                     </li>
+                     <li>
+                        <i aria-hidden="true" class="fa fa-desktop">
+                        </i> Works in browser on any device and OS.
+                     </li>
+                     <li>
+                        <i aria-hidden="true" class="fa fa-bank">Build-in ETH and token wallets.
+                        </i>
+                     </li>
+                     <li>
+                        <i aria-hidden="true" class="fa fa-thumbs-o-up">No or low fee.
+                        </i>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <hr>
+            <div class="row text-center"> © 2017. DECENTREX. Decentralized Ethereum tokens exchange.
+            </div>
+         </div>
+      </footer>
+      <script>
+         function myFunction() {
+           var input, filter, table, tr, td, i;
+           input = document.getElementById("myInput");
+           filter = input.value.toUpperCase();
+           table = document.getElementById("volume");
+           tr = table.getElementsByTagName("tr");
+           for (i = 0; i < tr.length; i++) {
+             td = tr[i].getElementsByTagName("td")[0];
+             if (td) {
+               if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                 tr[i].style.display = "";
+               } else {
+                 tr[i].style.display = "none";
+               }
+             }
+           }
+         }
+      </script>
+      <script src="//www.gstatic.com/charts/loader.js" type="text/javascript"></script>
+      <script>google.charts.load('current', {packages: ['corechart', 'line']});</script>
+      <script src="/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+      <script src="/js/jquery.translate.js" type="text/javascript"></script>
+      <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+      <script src="/js/alertify.min.js" type="text/javascript"></script>
+      <script src="/js/ejs_production.js" type="text/javascript"></script>
+      <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+         ga('create', 'UA-99624091-1', 'auto');
+         ga('send', 'pageview');
+      </script>
+   </body>
+</html>
